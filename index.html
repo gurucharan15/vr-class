@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuruCharan Tanneeru | Enterprise Full Stack Developer</title>
+    <meta name="description" content="Portfolio of GuruCharan Tanneeru, Enterprise Full Stack Developer & Technical Program Manager.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <h2>Loading Experience...</h2>
+        </div>
+    </div>
+
+    <!-- WebGL Canvas for Three.js -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- Foreground Content -->
+    <div id="content" class="content-wrapper">
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top glass-nav">
+            <div class="container">
+                <a class="navbar-brand text-white fw-bold" href="#">GC.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#certifications">Certifications</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Container -->
+        <main class="container">
+            
+            <!-- Hero / About Section -->
+            <section id="about" class="min-vh-100 d-flex align-items-center">
+                <div class="row w-100">
+                    <div class="col-lg-6 z-1 position-relative">
+                        <div class="glass-panel p-5 rounded-4 hero-content">
+                            <h1 class="display-3 fw-bold mb-3 text-gradient">GuruCharan Tanneeru</h1>
+                            <h2 class="h4 mb-4 text-white-50">Enterprise Full Stack Developer & Technical Program Manager</h2>
+                            <p class="lead text-light">
+                                Driving enterprise transformation, AI-enabled delivery, and bridging business, technology, and cross-functional development in complex global environments.
+                            </p>
+                            <a href="#contact" class="btn btn-outline-light btn-lg mt-3 glass-btn">Get In Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="section-padding">
+                <h2 class="section-title mb-5">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-panel p-4 mb-4 rounded-4 reveal">
+                        <h3 class="h5 fw-bold">PERSOL INDIA (Consultant at GE Aerospace)</h3>
+                        <h4 class="h6 text-white-50">Technical Program Manager (Jun 2025 - Mar 2026) & Data Analyst (Mar 2024 - May 2025)</h4>
+                        <p class="text-light mt-3">Focus on AI-enabled transformation, enterprise data migration, and automated workflows.</p>
+                    </div>
+                    
+                    <div class="timeline-item glass-panel p-4 mb-4 rounded-4 reveal">
+                        <h3 class="h5 fw-bold">PMI Pearl City Chapter</h3>
+                        <h4 class="h6 text-white-50">Volunteer Chapter Webmaster (Dec 2025 - Present)</h4>
+                        <p class="text-light mt-3">Highlighting the end-to-end development of pmi-pcc.org.</p>
+                    </div>
+
+                    <div class="timeline-item glass-panel p-4 rounded-4 reveal">
+                        <h3 class="h5 fw-bold">Dhanekula Institute / PINKMOON TECHNOLOGIES</h3>
+                        <h4 class="h6 text-white-50">Developer Internships</h4>
+                        <p class="text-light mt-3">Focusing on UI/UX workflows, payment gateways, and backend operations.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section-padding">
+                <h2 class="section-title mb-5">Projects</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="glass-card p-4 rounded-4 h-100 reveal">
+                            <div class="card-icon mb-3">🧠</div>
+                            <h3 class="h5 fw-bold">AI-Powered Document Intelligence Platform (G-EDI)</h3>
+                            <p class="text-light">Enterprise AI platform for document classification.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="glass-card p-4 rounded-4 h-100 reveal">
+                            <div class="card-icon mb-3">📊</div>
+                            <h3 class="h5 fw-bold">Date Intelligence & Extraction System (CIN)</h3>
+                            <p class="text-light">Intelligent system utilizing OCR and ML.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="glass-card p-4 rounded-4 h-100 reveal">
+                            <div class="card-icon mb-3">🌍</div>
+                            <h3 class="h5 fw-bold">Enterprise Data Migration Suite</h3>
+                            <p class="text-light">Dashboards for real-time visibility across global time zones.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="section-padding min-vh-100 d-flex flex-column justify-content-center">
+                <h2 class="section-title mb-5">Skills & Expertise</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4 reveal">
+                        <div class="glass-card p-4 rounded-4 text-center">
+                            <h3 class="h5 fw-bold mb-4">Web & Development</h3>
+                            <div class="skill-tags">
+                                <span>HTML5</span> <span>CSS3</span> <span>JavaScript</span> <span>Bootstrap</span>
+                                <span>Python</span> <span>SQL</span> <span>Prompt Engineering</span> <span>APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <div class="glass-card p-4 rounded-4 text-center">
+                            <h3 class="h5 fw-bold mb-4">Data & AI</h3>
+                            <div class="skill-tags">
+                                <span>AI/ML Fundamentals</span> <span>Tableau</span> <span>Alteryx</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 reveal">
+                        <div class="glass-card p-4 rounded-4 text-center">
+                            <h3 class="h5 fw-bold mb-4">Program Management</h3>
+                            <div class="skill-tags">
+                                <span>Agile</span> <span>Scrum</span> <span>PMO Governance</span> <span>Cross-Functional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section-padding">
+                <h2 class="section-title mb-5">Certifications</h2>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="glass-panel text-center p-4 rounded-4">
+                            <p class="fw-bold mb-0">Google IT Automation with Python Professional</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="glass-panel text-center p-4 rounded-4">
+                            <p class="fw-bold mb-0">Google Project Management Certificate</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="glass-panel text-center p-4 rounded-4">
+                            <p class="fw-bold mb-0">Alteryx Designer Core</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="glass-panel text-center p-4 rounded-4">
+                            <p class="fw-bold mb-0">Microsoft Certified: Azure Data Engineer Associate</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 reveal">
+                        <div class="glass-panel text-center p-4 rounded-4">
+                            <p class="fw-bold mb-0">AWS Academy Graduate - Cloud Architecting</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section-padding pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="glass-panel p-5 rounded-4 text-center reveal">
+                            <h2 class="h3 fw-bold mb-4">Let's Connect</h2>
+                            <p class="lead text-light mb-4">Looking to build enterprise-grade solutions or collaborate on technical transformations? Reach out!</p>
+                            
+                            <ul class="list-unstyled d-flex flex-column align-items-center gap-3">
+                                <li>
+                                    <a href="mailto:guru.charan.tanneeru@gmail.com" class="text-white text-decoration-none">
+                                        📧 guru.charan.tanneeru@gmail.com
+                                    </a>
+                                </li>
+                                <li>
+                                    <span class="text-white">📱 07995162550</span>
+                                </li>
+                                <li>
+                                    <span class="text-white">📍 Vijayawada, India</span>
+                                </li>
+                            </ul>
+                            
+                            <div class="d-flex justify-content-center gap-3 mt-4">
+                                <a href="#" class="btn btn-outline-light glass-btn">LinkedIn</a>
+                                <a href="#" class="btn btn-outline-light glass-btn">dev.to</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        
+        <footer class="text-center py-4 text-white-50">
+            <small>&copy; 2026 GuruCharan Tanneeru. Built with Liquid Glass Architecture.</small>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Simplex Noise for 3D liquid effect -->
+    <script src="https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/simplex-noise.min.js"></script>
+    <script src="three_scene.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
